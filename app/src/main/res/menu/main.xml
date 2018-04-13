@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Promocões"
+        app:showAsAction="ifRoom"
+        android:id="@+id/promo_list">
+    </item>
+
+    <item
+        android:title="Lanches"
+        app:showAsAction="ifRoom"
+        android:id="@+id/lunch_list">
+    </item>
+
+    <item
+        android:title="Pedidos"
+        app:showAsAction="ifRoom"
+        android:id="@+id/order_list">
+    </item>
+
+</menu>
