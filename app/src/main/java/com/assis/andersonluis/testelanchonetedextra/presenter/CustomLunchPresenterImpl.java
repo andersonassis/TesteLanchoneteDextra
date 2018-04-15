@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.presenter;
 
-import com.assis.andersonluis.testelanchonetedextra.adaptadores.IngredientAdapter;
+import com.assis.andersonluis.testelanchonetedextra.adapter.IngredientAdapter;
 import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
 import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
 import com.assis.andersonluis.testelanchonetedextra.modelos.Order;

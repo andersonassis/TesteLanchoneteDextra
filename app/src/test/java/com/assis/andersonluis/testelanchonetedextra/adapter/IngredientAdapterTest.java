@@ -1,4 +1,4 @@
-package com.assis.andersonluis.testelanchonetedextra.adaptadores;
+package com.assis.andersonluis.testelanchonetedextra.adapter;
 
 import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
 import com.squareup.picasso.Picasso;
@@ -16,7 +16,7 @@ import java.util.List;
 import com.assis.andersonluis.testelanchonetedextra.BuildConfig;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static com.assis.andersonluis.testelanchonetedextra.adaptadores.IngredientAdapter.*;
+import static com.assis.andersonluis.testelanchonetedextra.adapter.IngredientAdapter.*;
 
 
 

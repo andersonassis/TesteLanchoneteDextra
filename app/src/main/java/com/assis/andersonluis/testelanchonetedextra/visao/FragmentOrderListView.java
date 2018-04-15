@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.assis.andersonluis.testelanchonetedextra.R;
-import com.assis.andersonluis.testelanchonetedextra.adaptadores.OrderListAdapter;
+import com.assis.andersonluis.testelanchonetedextra.adapter.OrderListAdapter;
 import com.assis.andersonluis.testelanchonetedextra.modelos.Order;
 import com.assis.andersonluis.testelanchonetedextra.presenter.OrderListPresenter;
 import com.squareup.picasso.Picasso;
