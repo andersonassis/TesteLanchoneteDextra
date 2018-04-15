@@ -9,7 +9,7 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import com.assis.andersonluis.testelanchonetedextra.R;
-import com.assis.andersonluis.testelanchonetedextra.componentes.DaggerMainViewComponent;
+import com.assis.andersonluis.testelanchonetedextra.component.DaggerMainViewComponent;
 import com.assis.andersonluis.testelanchonetedextra.module.MainModule;
 import com.assis.andersonluis.testelanchonetedextra.presenter.MainPresenter;
 import com.joanzapata.iconify.IconDrawable;

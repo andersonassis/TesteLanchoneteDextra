@@ -12,9 +12,7 @@ import android.widget.Toast;
 import com.assis.andersonluis.testelanchonetedextra.Constants;
 import com.assis.andersonluis.testelanchonetedextra.R;
 import com.assis.andersonluis.testelanchonetedextra.adapter.IngredientAdapter;
-
-
-import com.assis.andersonluis.testelanchonetedextra.componentes.DaggerCustomLunchComponent;
+import com.assis.andersonluis.testelanchonetedextra.component.DaggerCustomLunchComponent;
 import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
 import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
 import com.assis.andersonluis.testelanchonetedextra.module.CustomLunchModule;

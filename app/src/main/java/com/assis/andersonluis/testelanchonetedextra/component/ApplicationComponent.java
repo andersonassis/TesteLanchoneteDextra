@@ -1,4 +1,4 @@
-package com.assis.andersonluis.testelanchonetedextra.componentes;
+package com.assis.andersonluis.testelanchonetedextra.component;
 
 
 import android.content.Context;

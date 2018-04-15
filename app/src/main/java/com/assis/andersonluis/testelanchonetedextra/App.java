@@ -2,7 +2,8 @@ package com.assis.andersonluis.testelanchonetedextra;
 
 import android.app.Application;
 
-import com.assis.andersonluis.testelanchonetedextra.componentes.ApplicationComponent;
+import com.assis.andersonluis.testelanchonetedextra.component.ApplicationComponent;
+import com.assis.andersonluis.testelanchonetedextra.component.DaggerApplicationComponent;
 import com.assis.andersonluis.testelanchonetedextra.module.ApplicationModule;
 import com.assis.andersonluis.testelanchonetedextra.internet.NetworkUtils;
 import com.joanzapata.iconify.Iconify;

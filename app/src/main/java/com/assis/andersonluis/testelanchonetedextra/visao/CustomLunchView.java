@@ -2,7 +2,6 @@ package com.assis.andersonluis.testelanchonetedextra.visao;
 
 import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
 import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
-
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -14,12 +13,9 @@ public interface CustomLunchView {
 
     public void showMessageOfError(String err);
     public void showMessageOfSuccessOfOrder(String succ);
-
     public void showInfoLunch(Lunch lunch);
     public void showListOfIngredients(List<Ingredient> ingredients);
     public void showTotalPrice(BigDecimal total);
-
-
 
 
 }
