@@ -1,9 +1,9 @@
 package com.assis.andersonluis.testelanchonetedextra.presenter;
 
-import com.assis.andersonluis.testelanchonetedextra.adapter.IngredientAdapter;
-import com.assis.andersonluis.testelanchonetedextra.model.Ingredient;
-import com.assis.andersonluis.testelanchonetedextra.model.Lunch;
-import com.assis.andersonluis.testelanchonetedextra.model.Order;
+import com.assis.andersonluis.testelanchonetedextra.adaptadores.IngredientAdapter;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Order;
 import com.assis.andersonluis.testelanchonetedextra.service.BaseRequestCallback;
 import com.assis.andersonluis.testelanchonetedextra.service.IngredientService;
 import com.assis.andersonluis.testelanchonetedextra.service.LunchService;

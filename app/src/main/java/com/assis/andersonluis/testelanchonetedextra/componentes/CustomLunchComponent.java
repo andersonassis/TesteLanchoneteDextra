@@ -1,4 +1,4 @@
-package com.assis.andersonluis.testelanchonetedextra.component;
+package com.assis.andersonluis.testelanchonetedextra.componentes;
 
 
 import com.assis.andersonluis.testelanchonetedextra.module.CustomLunchModule;

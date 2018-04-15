@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.assis.andersonluis.testelanchonetedextra.R;
-import com.assis.andersonluis.testelanchonetedextra.adapter.PromoListAdapter;
-import com.assis.andersonluis.testelanchonetedextra.model.Promo;
+import com.assis.andersonluis.testelanchonetedextra.adaptadores.PromoListAdapter;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Promo;
 import com.assis.andersonluis.testelanchonetedextra.presenter.PromoListPresenter;
 
 import java.util.List;

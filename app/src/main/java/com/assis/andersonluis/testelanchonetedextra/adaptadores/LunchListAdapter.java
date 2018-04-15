@@ -1,5 +1,6 @@
-package com.assis.andersonluis.testelanchonetedextra.adapter;
+package com.assis.andersonluis.testelanchonetedextra.adaptadores;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,60 +9,62 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.assis.andersonluis.testelanchonetedextra.R;
-import com.assis.andersonluis.testelanchonetedextra.model.Order;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
+import com.assis.andersonluis.testelanchonetedextra.presenter.LunchListPresenter;
 import com.squareup.picasso.Picasso;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class OrderListAdapter  extends RecyclerView.Adapter<OrderListAdapter.ItemViewHolder> {
+public class LunchListAdapter  extends RecyclerView.Adapter<LunchListAdapter.ItemViewHolder> {
 
-    private List<Order> orders;
+    private Context context;
+    private LunchListPresenter presenter;
     private Picasso picasso;
 
-    private DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+    private List<Lunch> itens;
 
-    public OrderListAdapter(List<Order> orders, Picasso picasso) {
-        this.orders = orders;
+    public LunchListAdapter(LunchListPresenter presenter, Picasso picasso, List<Lunch> itens) {
+        this.presenter = presenter;
         this.picasso = picasso;
+        this.itens = itens;
     }
 
     @Override
     public ItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View inflated = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_order_view, parent, false);
+        View inflated = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_lunch_view, parent, false);
         return new ItemViewHolder(inflated);
     }
 
-
-
     @Override
     public void onBindViewHolder(ItemViewHolder holder, int position) {
-        final Order order = orders.get(position);
+        final Lunch lunche = itens.get(position);
 
-        holder.title.setText(order.getLunch().getName());
-        holder.price.setText("R$ " + order.getFinalPrice().toString());
+        holder.title.setText(lunche.getName());
+        holder.price.setText("R$ " + lunche.getPrice().toString());
+        holder.ingredients.setText("Ingredientes: "+lunche.getIngredientListDescription());
 
-        holder.ingredients.setText("Ingredientes: " + order.getLunch().getIngredientListDescription());
-        holder.extras.setText("Extras: " + order.getDescriptionOfIngredientsExtras());
-        holder.date.setText(formatter.format(order.getDate()));
-
-        picasso.load(order.getLunch().getImage())
+        picasso.load(lunche.getImage())
                 .resize(75, 75)
                 .placeholder(R.mipmap.ic_launcher)
                 .into(holder.img);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                presenter.onSelectAnLunchOfList(lunche);
+            }
+
+        });
     }
-
-
 
     @Override
     public int getItemCount() {
-        return orders.size();
+        return itens.size();
     }
-
 
     public static class ItemViewHolder extends RecyclerView.ViewHolder {
 
@@ -76,12 +79,6 @@ public class OrderListAdapter  extends RecyclerView.Adapter<OrderListAdapter.Ite
 
         @BindView(R.id.txt_lunch_ingredients)
         TextView ingredients;
-
-        @BindView(R.id.txt_extra_ingredients)
-        TextView extras;
-
-        @BindView(R.id.txt_order_date)
-        TextView date;
 
         public ItemViewHolder(View itemView) {
             super(itemView);

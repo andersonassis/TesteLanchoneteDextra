@@ -4,6 +4,8 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 
 import com.assis.andersonluis.testelanchonetedextra.App;
+import com.assis.andersonluis.testelanchonetedextra.componentes.ApplicationComponent;
+import com.assis.andersonluis.testelanchonetedextra.util.ProgressManager;
 
 public class BaseFragment extends Fragment implements BaseView {
 

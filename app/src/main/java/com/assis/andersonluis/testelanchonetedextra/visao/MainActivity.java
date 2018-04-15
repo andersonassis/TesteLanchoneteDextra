@@ -4,13 +4,12 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 
 import com.assis.andersonluis.testelanchonetedextra.R;
-import com.assis.andersonluis.testelanchonetedextra.component.DaggerMainViewComponent;
+import com.assis.andersonluis.testelanchonetedextra.componentes.DaggerMainViewComponent;
 import com.assis.andersonluis.testelanchonetedextra.module.MainModule;
 import com.assis.andersonluis.testelanchonetedextra.presenter.MainPresenter;
 import com.joanzapata.iconify.IconDrawable;

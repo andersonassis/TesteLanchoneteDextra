@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.presenter;
 
-import com.assis.andersonluis.testelanchonetedextra.model.Order;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Order;
 import com.assis.andersonluis.testelanchonetedextra.service.BaseRequestCallback;
 import com.assis.andersonluis.testelanchonetedextra.service.OrderService;
 import com.assis.andersonluis.testelanchonetedextra.visao.OrderListView;

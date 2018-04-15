@@ -1,4 +1,4 @@
-package com.assis.andersonluis.testelanchonetedextra.net;
+package com.assis.andersonluis.testelanchonetedextra.internet;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

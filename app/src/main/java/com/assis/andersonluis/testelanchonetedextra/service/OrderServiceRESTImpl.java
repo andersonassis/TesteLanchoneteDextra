@@ -5,9 +5,9 @@ import com.assis.andersonluis.testelanchonetedextra.api.request.AddOrderRequestV
 import com.assis.andersonluis.testelanchonetedextra.api.response.InfoLunchResponseVO;
 import com.assis.andersonluis.testelanchonetedextra.api.response.IngredientResponseVO;
 import com.assis.andersonluis.testelanchonetedextra.api.response.OrderResponseVO;
-import com.assis.andersonluis.testelanchonetedextra.model.Ingredient;
-import com.assis.andersonluis.testelanchonetedextra.model.Lunch;
-import com.assis.andersonluis.testelanchonetedextra.model.Order;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Order;
 import com.google.gson.JsonArray;
 
 import java.math.BigDecimal;
@@ -53,7 +53,7 @@ public class OrderServiceRESTImpl implements OrderService {
             @Override
             public void accept(OrdersZippedResponse response) throws Exception {
 
-                /* mapeando ingredients */
+                /*ingredientes */
 
                 final HashMap<Integer, Ingredient> hashIngredients = fromIterable(response.getIngredientResponseVOs()).collectInto(new HashMap<Integer, Ingredient>(), new BiConsumer<HashMap<Integer, Ingredient>, IngredientResponseVO>() {
 
@@ -64,7 +64,7 @@ public class OrderServiceRESTImpl implements OrderService {
 
                 }).blockingGet();
 
-                /* mapeando lanches */
+                /* lanches */
 
                 final HashMap<Integer, Lunch> hashLunch = fromIterable(response.getInfoLunchResponseVOs()).collectInto(new HashMap<Integer, Lunch>(), new BiConsumer<HashMap<Integer, Lunch>, InfoLunchResponseVO>() {
 
@@ -87,7 +87,7 @@ public class OrderServiceRESTImpl implements OrderService {
 
                 }).blockingGet();
 
-                /* mapeando ordens */
+                /*ordens */
 
                 List<Order> result = fromIterable(response.getOrderResponseVOs()).collectInto(new ArrayList<Order>(), new BiConsumer<ArrayList<Order>, OrderResponseVO>() {
 

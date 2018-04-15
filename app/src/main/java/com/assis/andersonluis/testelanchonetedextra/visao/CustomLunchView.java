@@ -1,5 +1,8 @@
 package com.assis.andersonluis.testelanchonetedextra.visao;
 
+import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
+
 import java.math.BigDecimal;
 import java.util.List;
 

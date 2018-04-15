@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.presenter;
 
-import com.assis.andersonluis.testelanchonetedextra.model.Promo;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Promo;
 import com.assis.andersonluis.testelanchonetedextra.service.BaseRequestCallback;
 import com.assis.andersonluis.testelanchonetedextra.service.PromoService;
 import com.assis.andersonluis.testelanchonetedextra.visao.PromoListView;

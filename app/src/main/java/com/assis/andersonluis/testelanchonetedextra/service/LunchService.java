@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.service;
 
-import com.assis.andersonluis.testelanchonetedextra.model.Lunch;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
 
 import java.util.List;
 

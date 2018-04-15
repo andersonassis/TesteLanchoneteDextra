@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.service;
 
-import com.assis.andersonluis.testelanchonetedextra.model.Promo;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Promo;
 
 import java.util.List;
 

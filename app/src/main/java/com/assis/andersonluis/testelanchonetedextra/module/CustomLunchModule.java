@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.module;
 
-import com.assis.andersonluis.testelanchonetedextra.component.ActivityScope;
+import com.assis.andersonluis.testelanchonetedextra.componentes.ActivityScope;
 import com.assis.andersonluis.testelanchonetedextra.presenter.CustomLunchPresenter;
 import com.assis.andersonluis.testelanchonetedextra.presenter.CustomLunchPresenterImpl;
 import com.assis.andersonluis.testelanchonetedextra.service.IngredientService;

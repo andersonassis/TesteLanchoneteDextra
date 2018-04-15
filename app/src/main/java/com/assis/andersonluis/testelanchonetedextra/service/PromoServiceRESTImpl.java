@@ -2,7 +2,7 @@ package com.assis.andersonluis.testelanchonetedextra.service;
 
 import com.assis.andersonluis.testelanchonetedextra.api.API;
 import com.assis.andersonluis.testelanchonetedextra.api.response.PromoResponseVO;
-import com.assis.andersonluis.testelanchonetedextra.model.Promo;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Promo;
 
 import java.util.ArrayList;
 import java.util.List;

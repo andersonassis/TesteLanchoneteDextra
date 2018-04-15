@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.presenter;
 
-import com.assis.andersonluis.testelanchonetedextra.model.Lunch;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
 import com.assis.andersonluis.testelanchonetedextra.visao.LunchListView;
 
 public interface LunchListPresenter  extends BasePresenter<LunchListView> {

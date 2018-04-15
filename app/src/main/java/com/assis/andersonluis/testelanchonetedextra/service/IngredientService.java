@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.service;
 
-import com.assis.andersonluis.testelanchonetedextra.model.Ingredient;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
 
 import java.util.List;
 

@@ -5,7 +5,7 @@ import android.content.Context;
 
 import com.assis.andersonluis.testelanchonetedextra.BuildConfig;
 import com.assis.andersonluis.testelanchonetedextra.api.API;
-import com.assis.andersonluis.testelanchonetedextra.net.NetworkUtils;
+import com.assis.andersonluis.testelanchonetedextra.internet.NetworkUtils;
 import com.google.gson.Gson;
 import com.jakewharton.picasso.OkHttp3Downloader;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;

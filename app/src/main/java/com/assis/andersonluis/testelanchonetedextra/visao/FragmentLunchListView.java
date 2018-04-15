@@ -14,6 +14,9 @@ import android.widget.Toast;
 
 import com.assis.andersonluis.testelanchonetedextra.Constants;
 import com.assis.andersonluis.testelanchonetedextra.R;
+import com.assis.andersonluis.testelanchonetedextra.adaptadores.LunchListAdapter;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
+import com.assis.andersonluis.testelanchonetedextra.presenter.LunchListPresenter;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

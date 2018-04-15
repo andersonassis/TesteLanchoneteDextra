@@ -1,6 +1,6 @@
 package com.assis.andersonluis.testelanchonetedextra.service;
 
-import com.assis.andersonluis.testelanchonetedextra.model.Order;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Order;
 
 import java.util.List;
 

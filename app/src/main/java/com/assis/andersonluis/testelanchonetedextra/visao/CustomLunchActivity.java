@@ -11,6 +11,13 @@ import android.widget.Toast;
 
 import com.assis.andersonluis.testelanchonetedextra.Constants;
 import com.assis.andersonluis.testelanchonetedextra.R;
+import com.assis.andersonluis.testelanchonetedextra.adaptadores.IngredientAdapter;
+
+import com.assis.andersonluis.testelanchonetedextra.componentes.DaggerCustomLunchComponent;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
+import com.assis.andersonluis.testelanchonetedextra.module.CustomLunchModule;
+import com.assis.andersonluis.testelanchonetedextra.presenter.CustomLunchPresenter;
 import com.squareup.picasso.Picasso;
 
 import java.math.BigDecimal;
@@ -97,7 +104,7 @@ public class CustomLunchActivity  extends BaseActivity implements CustomLunchVie
     public void showListOfIngredients(List<Ingredient> ingredients) {
 
         if(recycler.getAdapter() == null){
-            adapter = new IngredientAdapter(ingredients, picasso, (OnIngredientModifierListener) presenter);
+            adapter = new IngredientAdapter(ingredients, picasso, (IngredientAdapter.OnIngredientModifierListener) presenter);
 
             recycler.setAdapter(adapter);
             recycler.setLayoutManager(new LinearLayoutManager(this));

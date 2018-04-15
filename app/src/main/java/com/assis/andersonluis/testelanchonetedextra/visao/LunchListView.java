@@ -1,5 +1,7 @@
 package com.assis.andersonluis.testelanchonetedextra.visao;
 
+import com.assis.andersonluis.testelanchonetedextra.modelos.Lunch;
+
 import java.util.List;
 
 /**

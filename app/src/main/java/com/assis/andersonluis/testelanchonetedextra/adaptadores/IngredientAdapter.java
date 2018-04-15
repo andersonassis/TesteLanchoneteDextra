@@ -1,4 +1,4 @@
-package com.assis.andersonluis.testelanchonetedextra.adapter;
+package com.assis.andersonluis.testelanchonetedextra.adaptadores;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.assis.andersonluis.testelanchonetedextra.R;
-import com.assis.andersonluis.testelanchonetedextra.model.Ingredient;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
 import com.shawnlin.numberpicker.NumberPicker;
 import com.squareup.picasso.Picasso;
 

@@ -1,4 +1,4 @@
-package com.assis.andersonluis.testelanchonetedextra.adapter;
+package com.assis.andersonluis.testelanchonetedextra.adaptadores;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.assis.andersonluis.testelanchonetedextra.R;
-import com.assis.andersonluis.testelanchonetedextra.model.Promo;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Promo;
 
 import java.util.List;
 

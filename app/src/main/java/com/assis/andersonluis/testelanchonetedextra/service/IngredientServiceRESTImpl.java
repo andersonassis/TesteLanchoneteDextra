@@ -2,7 +2,7 @@ package com.assis.andersonluis.testelanchonetedextra.service;
 
 import com.assis.andersonluis.testelanchonetedextra.api.API;
 import com.assis.andersonluis.testelanchonetedextra.api.response.IngredientResponseVO;
-import com.assis.andersonluis.testelanchonetedextra.model.Ingredient;
+import com.assis.andersonluis.testelanchonetedextra.modelos.Ingredient;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

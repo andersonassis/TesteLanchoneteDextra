@@ -1,4 +1,4 @@
-package com.assis.andersonluis.testelanchonetedextra.component;
+package com.assis.andersonluis.testelanchonetedextra.componentes;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,7 +1,7 @@
 package com.assis.andersonluis.testelanchonetedextra.module;
 
 
-import com.assis.andersonluis.testelanchonetedextra.component.ActivityScope;
+import com.assis.andersonluis.testelanchonetedextra.componentes.ActivityScope;
 import com.assis.andersonluis.testelanchonetedextra.presenter.LunchListPresenter;
 import com.assis.andersonluis.testelanchonetedextra.presenter.LunchListPresenterImpl;
 import com.assis.andersonluis.testelanchonetedextra.presenter.MainPresenter;
@@ -43,7 +43,7 @@ public class MainModule {
         return new MainPresenterImpl(view);
     }
 
-    /* lunch */
+
 
     @Provides @ActivityScope
     public LunchListView provideLunchListView(LunchListPresenter presenter, Picasso picasso){
@@ -60,7 +60,7 @@ public class MainModule {
         return new LunchListPresenterImpl(service, orderService);
     }
 
-    /* promo */
+
 
     @Provides @ActivityScope
     public PromoListView providePromoListView(PromoListPresenter presenter){
@@ -76,7 +76,7 @@ public class MainModule {
         return new PromoListPresenterImpl(service);
     }
 
-    /* orders */
+
 
     @Provides @ActivityScope
     public OrderListView provideOrderListView(OrderListPresenter presenter, Picasso picasso){
