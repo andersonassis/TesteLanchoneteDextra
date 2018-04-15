@@ -4,19 +4,19 @@
     <item
         android:title="Promocões"
         app:showAsAction="ifRoom"
-        android:id="@+id/promo_list">
+        android:id="@+id/promocao">
     </item>
 
     <item
         android:title="Lanches"
         app:showAsAction="ifRoom"
-        android:id="@+id/lunch_list">
+        android:id="@+id/lanches">
     </item>
 
     <item
         android:title="Pedidos"
         app:showAsAction="ifRoom"
-        android:id="@+id/order_list">
+        android:id="@+id/pedidos">
     </item>
 
 </menu>
