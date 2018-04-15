@@ -22,8 +22,8 @@ JUnit,
 Robolectric,
 Mockito,
 
-Resumo para o futuro com nivel de complexidade facil
-Subir o projeto para algum servidor na nuvem que forneça base de dados em Nodejs
+Resumo para o futuro com nivel de complexidade facil.
+Subir o projeto para algum servidor na nuvem que forneça base de dados em Nodejs,
 melhorar algumas funcionalidades do app, exemplo layouts, e como aparece os produtos
 
 
